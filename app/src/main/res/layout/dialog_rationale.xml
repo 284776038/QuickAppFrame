@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg"
+    android:layout_centerInParent="true"
+    android:padding="18dp"
+    >
+    <TextView
+        android:id="@+id/rationale_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_not_wifi_connect_title"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="7dp"
+        android:paddingBottom="20dp"
+        android:textSize="@dimen/user_center_text_17_sp"
+        android:textColor="@color/global_content_text"/>
+
+    <Button
+        android:layout_width="107dp"
+        android:layout_height="33dp"
+        android:background="@drawable/selector_white_btn"
+        android:layout_below="@+id/rationale_txt"
+        android:id="@+id/rationale_left_btn"
+        android:layout_marginRight="5dp"
+        android:textSize="@dimen/user_center_text_14_sp"
+        android:text="@string/dialog_not_wifi_connect_cancel"/>
+
+    <Button
+        android:id="@+id/rationale_right_btn"
+        android:layout_width="107dp"
+        android:layout_height="33dp"
+        android:background="@drawable/selector_green_btn"
+        android:text="@string/dialog_not_wifi_connect_confirm"
+        android:layout_below="@+id/rationale_txt"
+        android:textColor="#ffffff"
+        android:layout_toRightOf="@id/rationale_left_btn"
+        android:textSize="@dimen/user_center_text_14_sp"
+        />
+
+</RelativeLayout>

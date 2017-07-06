@@ -1,0 +1,38 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="home_divider">1px</dimen>
+    <dimen name="draw_divider">3dp</dimen>
+    <dimen name="viewpager_indicator">6dp</dimen>
+
+    <!--个人首页-->
+    <dimen name="user_center_90_dp">90dp</dimen>
+    <dimen name="user_center_45_dp">45dp</dimen>
+    <dimen name="user_center_40_dp">40dp</dimen>
+    <dimen name="user_center_34_dp">34dp</dimen>
+    <dimen name="user_center_25_dp">25dp</dimen>
+    <dimen name="user_center_20_dp">20dp</dimen>
+    <dimen name="user_center_15_dp">15dp</dimen>
+    <dimen name="user_center_14_dp">14dp</dimen>
+    <dimen name="user_center_12_dp">12dp</dimen>
+    <dimen name="user_center_10_dp">10dp</dimen>
+    <dimen name="user_center_9_dp">9dp</dimen>
+    <dimen name="user_center_8_dp">8dp</dimen>
+    <dimen name="user_center_7_dp">7dp</dimen>
+    <dimen name="user_center_4_dp">4dp</dimen>
+    <dimen name="user_center_1_dp">1px</dimen>
+    <dimen name="user_center_text_22_sp">22sp</dimen>
+    <dimen name="user_center_text_20_sp">20sp</dimen>
+    <dimen name="user_center_text_17_sp">17sp</dimen>
+    <dimen name="user_center_text_16_sp">16sp</dimen>
+    <dimen name="user_center_text_14_sp">14sp</dimen>
+    <dimen name="user_center_text_13_sp">13sp</dimen>
+    <dimen name="user_center_text_12_sp">12sp</dimen>
+    <dimen name="user_center_text_length">100dp</dimen>
+
+    <dimen name="user_center_pop_radio_bt_height">56dp</dimen>
+
+<!-- ******* -->
+
+</resources>

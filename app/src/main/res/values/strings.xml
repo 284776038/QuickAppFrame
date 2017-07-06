@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">app快速开发框架</string>
+    <string name="user_center_unknown">未知</string>
+    <string name="user_center_no_data">以上是全部内容</string>
+
+    <!--联网弹框-->
+    <string name="dialog_not_wifi_connect_title">当前是无WiFi环境,继续使用\n可能会被运营商收取流量费用</string>
+    <string name="dialog_not_wifi_connect_cancel">取消</string>
+    <string name="dialog_not_wifi_connect_confirm">继续使用</string>
+    <string name="network_error">网络出了点问题</string>
+    <string name="network_error_refresh">点击刷新</string>
+    <string name="data_parse_error">数据解析错误</string>
+
+    <string name="photo_selector_cancel">取消</string>
+    <string name="photo_selector_camera">拍照</string>
+    <string name="photo_selector_photo">从相册中选择</string>
+</resources>
