@@ -27,7 +27,7 @@ import cn.richinfo.frame.util.NotificationUtil;
  * @createDate : 2017/7/6 0006
  * @modifyDate : 2017/7/6 0006
  * @version    : 1.0
- * @desc       :
+ * @desc       : 默认的下载文件回调通知
  * </pre>
  */
 
@@ -36,7 +36,7 @@ public class DefaultDownloadListener implements DownloadListener {
     private Reference<Context> mRef;
 
     public DefaultDownloadListener(Context context) {
-        mRef = new SoftReference<Context>(context);
+        mRef = new SoftReference<>(context);
     }
 
     @Override
@@ -63,6 +63,7 @@ public class DefaultDownloadListener implements DownloadListener {
         }
         NotificationUtil.showPendingIntentNotification(mRef.get(),
             "下载完成", install, request.id);
+        DownloadManager.unregisterListener(request);
     }
 
     @Override
@@ -77,11 +78,13 @@ public class DefaultDownloadListener implements DownloadListener {
         if (mRef.get() == null) { return; }
         NotificationUtil.showProgressNotification(mRef.get(),
             mRef.get().getString(R.string.app_name), -1, request.id);
+        DownloadManager.unregisterListener(request);
     }
 
     @Override
     public void onCanceled(Request request) {
         if (mRef.get() == null) { return; }
         NotificationUtil.getNotificationManager(mRef.get()).cancel(request.id);
+        DownloadManager.unregisterListener(request);
     }
 }

@@ -7,6 +7,8 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
+import cn.richinfo.frame.ui.fragment.WebviewFragment;
+
 
 /**
  * Description: 描述 <br>
@@ -23,6 +25,8 @@ public class DownloadService extends IntentService{
     private static final String OPERATION_EXTRA = "operation_extra";
 
     private static final String REQUEST_EXTRA = "request_extra";
+
+    private static final String REQUEST_NOTIFY_EXTRA = "request_notify";
 
     private static final int DOWNLOAD_OPERATION = 0x100;
     private static final int CANCEL_OPERATION = DOWNLOAD_OPERATION + 1;
@@ -61,6 +65,10 @@ public class DownloadService extends IntentService{
 //        final Context context = getApplicationContext();
         int oper = intent.getIntExtra(OPERATION_EXTRA, 0);
         Request request = intent.getParcelableExtra(REQUEST_EXTRA);
+        boolean notify = intent.getBooleanExtra(REQUEST_NOTIFY_EXTRA, false);
+        if (notify) {
+            DownloadManager.registerListener(new DefaultDownloadListener(this), request);
+        }
         Log.d(TAG, " DownloadService onHandleIntent operation = " + oper);
         final DownloadManager dm = DownloadManager.getInstance();
         switch (oper) {
