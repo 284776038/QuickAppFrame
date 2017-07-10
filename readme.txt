@@ -8,7 +8,7 @@ android应用快速开发框架
     5、内存泄露检测：leakcanary;
     6、圆角图片：roundedimageview;
     7、两个兼容包：appcompat-v7和support-v4;
-    8、其他：图片选择器(PhotoHelper)、文件下载器(download包中)等.
+    8、其他：图片选择器(PhotoHelper)、文件下载器(download包中)、数据库框架(GreenDao)等.
 
 业务实现方式：
     1、在view包下创建一个继承BaseView的接口，该接口主要定义具体业务回调的抽象方法，写法参见BaseWebView;
@@ -26,5 +26,14 @@ android应用快速开发框架
 
 UI界面实现：
     要求严格按照android编程规范来实现UI界面的设计。
+
+
+GreenDao框架的简单使用详见：http://www.jianshu.com/p/dac3bd9bad72
+                        https://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&mid=2650821932&idx=1&sn=d26c09af7cbbfb1b0a95517bd78cc784&chksm=80b781b2b7c008a4a8dab45756e4d433b1c56e1c61762f98ee3b8a2b89a00756f82d6bb4d6b6&scene=0#rd
+                        https://github.com/greenrobot/greenDAO。
+                        http://blog.csdn.net/Hi_AndG/article/details/54695725
+
+retrofit+Rxjava框架的使用详见：http://www.jianshu.com/p/5bc866b9cbb9
+                            http://blog.csdn.net/byxyrq/article/details/52672202
 
 
