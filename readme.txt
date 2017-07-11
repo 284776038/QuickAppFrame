@@ -15,7 +15,7 @@ android应用快速开发框架
     2、在presenter包下创建一个实现BasePresenter的类，该类中主要定义具体业务接口，写法参见WebViewPresenter类;
     3、Util包下的Constant类中定义好BASE_URL常量，这个是配置服务器地址的;
     4、在data/request包中自定义自己的请求实体类(JavaBean格式的)，可参见LoginBody类的写法;
-    5、在data/response包中自定义自己的响应实体类(JavaBean格式的)，可参见Simple类的写法;
+    5、在data/response包中自定义自己的响应实体类(JavaBean格式的)，可参见SimpleModel类的写法;
     6、在network包下的RichApi中定义网络请求的方法，可以参见RichApi中的例子，也可以参考retrofit2+Rxjava网络
     请求使用详解;
     7、然后在之前第二步定义好的presenter类中定义具体业务方法，通过调用RichApiService.getRichApiInstance()
@@ -26,6 +26,8 @@ android应用快速开发框架
 
 UI界面实现：
     要求严格按照android编程规范来实现UI界面的设计。
+
+文件下载器(download包中)用法: 在WebviewFragment.java类中集成了下载器的功能，详见此类。
 
 
 GreenDao框架的简单使用详见：http://www.jianshu.com/p/dac3bd9bad72
