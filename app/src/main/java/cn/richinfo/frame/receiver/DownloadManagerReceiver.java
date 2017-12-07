@@ -23,7 +23,7 @@ import cn.richinfo.frame.util.StringUtils;
 /**
  * Description: 应用下载完毕接收器,用于拉起自动安装 <br>
  * Copyright: Copyright (c) 2017 <br>
- * Company:深圳彩讯科技有限公司 <br>
+ * Company:XXXXXXXXXXXXXXXXXXXX <br>
  * Email:284425176@qq.com <br>
  *
  * @author suma on 2017/5/9

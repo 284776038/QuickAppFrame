@@ -12,7 +12,7 @@ import cn.richinfo.frame.download.Request;
  * 用于{@link cn.richinfo.roodo.receiver.DownloadManagerReceiver} {@link cn.richinfo.roodo.webclient.RodoDownLoadListener} <br/>
  *
  * Copyright: Copyright (c) 2017 <br/>
- * Company:深圳彩讯科技有限公司 <br/>
+ * Company:XXXXXXXXXXXXXXXXXXXX <br/>
  * Email:284425176@qq.com <br/>
  *
  * @author suma on 2017/5/9

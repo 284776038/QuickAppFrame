@@ -11,7 +11,7 @@ import cn.richinfo.frame.R;
 /**
  * Description: 下载工具类,调用{@link DownloadManager}进行下载 <br>
  * Copyright: Copyright (c) 2017 <br>
- * Company:深圳彩讯科技有限公司 <br>
+ * Company:XXXXXXXXXXXXXXXXXXXX <br>
  * Email:284425176@qq.com <br>
  *
  * @author suma on 2017/5/19

@@ -17,7 +17,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
  * version: 2.0 By Suma 增加了多线程处理
  * <p>
  * Copyright: Copyright (c) 2017
- * Company:深圳彩讯科技有限公司
+ * Company:XXXXXXXXXXXXXXXXXXXX
  */
 
 public class RichApiService {

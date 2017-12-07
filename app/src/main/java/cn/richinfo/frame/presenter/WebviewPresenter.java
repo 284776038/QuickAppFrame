@@ -15,7 +15,7 @@ import static com.google.common.base.Preconditions.checkNotNull;
  * version: 1.0
  * <p>
  * Copyright: Copyright (c) 2017
- * Company:深圳彩讯科技有限公司
+ * Company:XXXXXXXXXXXXXXXXXXXX
  */
 
 public class WebviewPresenter implements BasePresenter {
