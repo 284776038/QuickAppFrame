@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <cn.richinfo.roodo.ui.widget.webview.RodoCommonWebView
+    <cn.bfy.roodo.ui.widget.webview.RodoCommonWebView
         android:id="@+id/webview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
